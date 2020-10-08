@@ -17,6 +17,11 @@ h1 {
   color: #fff;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .app-container {
   height: 100vh;
   background: black;
@@ -54,7 +59,16 @@ h1 {
   display: flex;
 }
 
-.recently {
+.recently,
+.create {
   display: flex;
   flex-direction: row;
+}
+
+footer {
+  background: orange;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
