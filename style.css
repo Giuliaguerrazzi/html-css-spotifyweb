@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #fff;
+}
+
+.app-container {
+  height: 100vh;
+  background: black;
+  display: flex;
+}
+
+.sidebar {
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 220px;
+}
+
+.main-menu {
+  background: darkgrey;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
