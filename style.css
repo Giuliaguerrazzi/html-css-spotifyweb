@@ -8,6 +8,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* utilities */
+.pad-10 {
+  padding: 10px;
+}
+
 h1 {
   color: #fff;
 }
@@ -30,4 +35,26 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+}
+
+.upgrade {
+  background: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu {
+  background: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu p {
+  padding: 5px;
+  display: flex;
+}
+
+.recently {
+  display: flex;
+  flex-direction: row;
 }
