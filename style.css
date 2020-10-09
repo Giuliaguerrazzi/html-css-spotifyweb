@@ -13,10 +13,21 @@ body {
   padding: 10px;
 }
 
+.pad-5 {
+  padding: 5px;
+}
+
 h1 {
   color: #fff;
 }
 
+.grey {
+  color: lightgrey;
+  opacity: 0.5;
+}
+
+
+/* app */
 .container {
   height: 100vh;
   display: flex;
@@ -41,25 +52,82 @@ h1 {
   max-width: 60%;
 }
 
+/* icon-menu */
 .icon-menu ul li {
   padding: 5px;
   list-style: none;
-  opacity: 0.5;
 }
 
-.icon-menu ul li a {
-  text-decoration: none;
-  color: lightgrey;
+.icon-menu ul li span {
+  margin-left: 5px;
 }
 
-.icon-menu i {
-  font-size: 24px;
-  color: #fff;
+.icon-menu ul li img {
+  max-width: 14%;
 }
 
+.home {
+  position: absolute;
+  top: 78px;
+}
 
+.cerca {
+  position: absolute;
+  top: 115px;
+}
+
+.libreria {
+  position: absolute;
+  top: 155px;
+}
+
+/* playlist */
 .playlist {
   flex-grow: 1;
+}
+
+.playlist h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.playlist i {
+  opacity: 1;
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.playlist span {
+  position: absolute;
+  top: 235px;
+}
+
+.playlist ul li {
+  list-style: none;
+  line-height: 33px;
+}
+
+.install-app::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: lightgrey;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.profile img {
+  margin-top: 10px;
+  width: 25px;
+  background-color: #777;
+  border-radius: 50%;
+  height: 25px;
+}
+
+.profile span {
+  color: #fff;
+  
 }
 
 /* main menu */
@@ -121,13 +189,11 @@ h1 {
   list-style: none;
   margin: 20px 0;
   font-size: 12px;
-  opacity: 0.5;
 }
 
 .nav-menu ul li a {
   padding: 10px;
   text-transform: uppercase;
-  color: lightgrey;
   text-decoration: none;
 }
 
