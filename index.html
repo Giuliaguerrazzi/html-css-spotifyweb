@@ -13,16 +13,16 @@
 
   </head>
   <body>
-   <div class="container">
+  <div class="container">
      <div class="app-container">
       <section class='sidebar'>
 
         <div class="logo">
-          <img class='pad-10' src="./img-spotify/logo.svg" alt="">
+          <img class='pad-15' src="./img-spotify/logo.svg" alt="">
         </div>
 
         <div class="icon-menu pad-10">
-          <div class="">
+          <div class="icons">
             <ul>
               <li class='grey'>
                 <img src="./img-spotify/home.svg" alt="">
@@ -43,10 +43,10 @@
         </div>
 
         <div class="playlist pad-10">
-          <div class="grey">
-            <h2>Playlist</h2>
-            <i class="fas fa-plus-square"></i>
-            <span class='pad-10'>Crea playlist</span>
+          <div class="create-playlist">
+            <h2 class='grey'>Playlist</h2>
+            <i class= "grey fas fa-plus-square"></i>
+            <span class='grey pad-10'>Crea playlist</span>
 
             <ul class='grey'>
               <li>Nome playlist</li>
@@ -69,7 +69,6 @@
           <div class="profile">
             <img src="./img-spotify/profile.svg" alt="">
             <span>John Doe</span>
-
           </div>
         </div>
 
@@ -158,41 +157,83 @@
               </div>
           </div>
 
-          <div class="create">
-            <h2 class='h2-white'>Recently played</h2>
+          <div class="create pad-10">
+            <h2 class='h2-white'>Creato per John Doe</h2>
+            <small class='grey'>Più ascolti, più saranno accurati i suggerimenti</small>
              <div class="box">
                 <ul class="text-center">
                  <li>
-                   <img src="./img-spotify/metal_lifting.jpg" alt="">
-                   <h5 class='h5-album'>Heavy metal</h5>
-                   <small class='grey'>Subtitle</small>
+                   <img src="./img-spotify/radar.jpeg" alt="">
+                   <h5 class='h5-album'>Release Radar</h5>
                  </li>
                  <li>
-                   <img src="./img-spotify/stranger.jpeg" alt="">
-                   <h5 class='h5-album'>Stranger Things Vol.1 (a Netflix Original Series Soundtrack)</h5>
-                   <small class='grey'>Kyle Dixon &amp; Michael Stein</small>
+                   <img src="./img-spotify/mixdaily.jpeg" alt="">
+                   <h5 class='h5-album'>Daily mix 1</h5>
                  </li>
+                </ul>
              </div>
           </div>
 
+          <div class="artist pad-10">
+            <h2 class='h2-white'>Artisti più popolari</h2>
+            <small class='grey'>Più ascolti, più saranno accurati i suggerimenti</small>
+             <div class="box">
+                <ul class="text-center">
+                 <li>
+                   <img src="./img-spotify/young.jpeg" alt="">
+                   <h5 class='h5-album'>Lana del Rey</h5>
+                 </li>
+                 <li>
+                   <img src="./img-spotify/einaudi.jpeg" alt="">
+                   <h5 class='h5-album'>Ludovico Einaudi</h5>
+                 </li>
+                </ul>
+             </div>
+          </div>
 
+      </div>
       </section>
     </div>
 
-    <footer>
+    <footer class='player'>
       <div class="box-left">
-        left
+        <img src="./img-spotify/sinister.jpeg" alt="">
+
+        <div class="song">
+          <h5 class='h5-album'>Sinister</h5>
+          <small class='grey'>Brano nome</small>
+        </div>
+
+        <div class="love">
+          <i class="far fa-heart"></i>
+          <i class="far fa-folder"></i>
+        </div>
       </div>
 
       <div class="box-center">
-        center
+        <div class="play">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="far fa-play-circle"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-undo-alt"></i>
+        </div>
+
+        <div class="play-bar">
+          <span>0:25</span>
+          <div class="bar"></div>
+          <span>4:35</span>
+        </div>
       </div>
 
       <div class="box-right">
-        right
+        <i class="fas fa-list"></i>
+        <i class="fas fa-desktop"></i>
+        <i class="fas fa-volume-up"></i>
+        <div class="bar2"></div>
       </div>
     </footer>
-</div>
+  </div>
 
 
 
