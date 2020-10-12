@@ -133,18 +133,20 @@ body {
 
 .playlist i {
   opacity: 1;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px 0;
 }
 
 .playlist span {
   position: absolute;
   top: 40px;
+  padding-left: 10px;
 }
 
 .playlist ul li {
   list-style: none;
-  line-height: 33px;
+  font-size: 15px;
+  padding: 5px;
 }
 
 /* account */
@@ -302,14 +304,33 @@ body {
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 35px;
-
 }
 
-.box ul li img:hover{
-  filter: blur(3px);
+.artist .box ul li i {
+  position: absolute;
+  opacity: 0;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 35px;
 }
 
-.box ul li i:hover {
+.create .box ul li i {
+  position: absolute;
+  opacity: 0;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 35px;
+}
+
+.box ul li:hover img{
+  opacity: 0.5;
+}
+
+.box ul li:hover i{
   opacity: 1;
 }
 
@@ -322,6 +343,7 @@ footer {
   background: #222;
   display: flex;
   justify-content: space-between;
+  height: 100px;
 }
 
 footer .box-left,
@@ -336,7 +358,7 @@ footer .box-right {
 }
 
 .box-left img {
-  width: 30%;
+  height: 95px;
   padding: 30px 10px;
 }
 
@@ -364,9 +386,9 @@ footer .box-right {
 }
 
 .play i {
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
-  padding: 25px 0;
+  padding: 10px 0;
   margin: 0 15px;
 }
 
@@ -376,14 +398,13 @@ footer .box-right {
 }
 
 .play i:nth-child(3) {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .play-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .play-bar span {
@@ -418,7 +439,7 @@ footer .box-right {
 
 .box-right i {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   padding: 0 10px;
   opacity: 0.5;
 }
@@ -470,7 +491,7 @@ footer .box-right {
   }
 
   .box-left img {
-    width: 70%;
+    width: 80px;
   }
 
   .song small {
@@ -505,7 +526,7 @@ footer .box-right {
   }
 
   .sidebar {
-    flex-basis: 100px;
+    flex-basis: 50px;
   }
 
   .icon-menu ul li span {
@@ -513,7 +534,7 @@ footer .box-right {
   }
 
   .icon-menu ul li img {
-    max-width: 30%;
+    max-width: 100%;
   }
 
   .create-playlist {
@@ -534,5 +555,63 @@ footer .box-right {
 
   .install-app::after{
     display: none;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+   .nav-menu ul li{
+   margin: 10px 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .box-left img {
+    width: 80px;
+  }
+
+  .song small {
+    font-size: 8px;
+  }
+
+  .love {
+    padding-left: 0;
+  }
+
+  .love i {
+    font-size: 16px;
+    margin-left: 8px;
+    padding: 2px;
+  }
+
+  .play i {
+    font-size: 20px;
+    color: #fff;
+    padding: 25px 0;
+    margin: 0px 10px;
+  }
+
+  .play i:nth-child(3) {
+    font-size: 30px;
+  }
+
+  .bar {
+    width: 150px;
+  }
+
+  .box-right i {
+  font-size: 15px;
+  padding: 0 5px;
+  }
+
+  .bar2 {
+  width: 90px;
+  margin: 0 10px;
   }
 }
