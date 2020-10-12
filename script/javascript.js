@@ -1,3 +1,3 @@
 // esercizio nuovo titolo
 
-document.getElementById('Play-now').innerHTML = 'play now';
+document.getElementById("play-now").innerHTML = "Play now";
